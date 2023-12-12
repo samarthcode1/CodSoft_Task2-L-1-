@@ -1,0 +1,422 @@
+
+#title {
+    background-color: rgba(255, 255, 255, 0.476);
+    color: black;
+    font-size: 75px;
+    border: 5px solid black;
+    padding: 20px;
+    font-family: Poppins;
+    font-weight: 90;
+    box-shadow: 5px 5px 10px #000003;
+}
+#title:hover {
+    background-color: #f75932;
+    box-shadow: 2px 2px 20px #222049;
+    color: white;
+
+}
+.info{
+    color: white;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222049;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+#tite {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    box-shadow: 5px 5px 10px #222049;
+    padding: 20px;
+    border: 5px solid black;
+    position: relative;
+    bottom: 40px;
+    font-family: Poppins;
+}
+#tite:hover {
+    background-color: #3235f7;
+    box-shadow: 2px 2px 20px #222049;
+    color: white;
+
+}
+section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.back {
+    background-image: url(https://7criccricket.in/wp-content/uploads/2023/10/Virat-Kohli.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -41;
+    position: fixed;
+    right: 10px;
+    margin-left: -7px;
+
+    padding: 0;
+}
+
+
+.section1 {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to left,red,rgb(65, 131, 245));
+    border-radius: 10px;
+    position: static;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.section1B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    background-color: black;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+.text1 {
+    width: 60%;
+    font-size: 25px;
+    margin-left: 22%;
+    justify-content: center;
+    color: rgb(250, 188, 102);
+}
+.text2 {
+    width: 60%;
+    font-size: 30px;
+    padding: 35px 0 50px 0;
+    color: rgb(250, 188, 102);
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.card2img {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.tnn.in%2Fthumb%2Fmsid-105235771%2Cthumbsize-54810%2Cwidth-1280%2Cheight-720%2Cresizemode-75%2F105235771.jpg&f=1&nofb=1&ipt=43b7b1167414b1ae8c1ffa5cb057522044ec1ce13291a6e77cbdb27138202fa6&ipo=images);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    left: 19px;
+    margin-top: 20px;
+
+}
+.card4img {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcircleofcricket.com%2Fpost_image%2Fpost_image_262a39c.jpg&f=1&nofb=1&ipt=37239238d36d04d859b8e4f0ad2c0447f79b96de373d3ed6924f441810fcf69a&ipo=images);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    left: 19px;
+    margin-top: 20px;
+
+}.card5img {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.newindianexpress.com%2Fuploads%2Fuser%2Fimagelibrary%2F2017%2F4%2F13%2Foriginal%2FPTI5Kohli.jpg&f=1&nofb=1&ipt=a89f8175f9ebb9645e0edff0bf9819600a6da03f9b44d828b4595241a0996602&ipo=images);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    left: 19px;
+    margin-top: 20px;
+
+}
+.card3img {
+    background-image: url(https://cricketaddictor.com/wp-content/uploads/2021/07/virat-kohli-4.jpg);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    left: 19px;
+    margin-top: 20px;
+
+}
+
+.card1img {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.hscicdn.com%2Fimage%2Fupload%2Ff_auto%2Ct_ds_w_1200%2Flsci%2Fdb%2FPICTURES%2FCMS%2F318800%2F318827.jpg&f=1&nofb=1&ipt=4fc284ce40447c065b3995fd1b3207dd40da6cfd884212e12c54b1d144525840&ipo=images);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    left: 19px;
+    margin-top: 20px;
+
+}
+
+.card1text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.card3 {
+    margin-top: 20px;
+    width: 240px;
+    border: 5px solid #222049;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222049;
+}
+
+.card2 {
+    margin-top: 20px;
+    width: 240px;
+    border: 5px solid #222049;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222049;
+}
+.card4 {
+    margin-top: 20px;
+    width: 240px;
+    border: 5px solid #222049;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222049;
+}.card5 {
+    margin-top: 20px;
+    width: 240px;
+    border: 5px solid #222049;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222049;
+}
+
+.card1 {
+    margin-top: 20px;
+    width: 240px;
+    border: 5px solid #222049;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222049;
+}
+
+.card1:hover {
+    background-color: #b87c02;
+    box-shadow: 2px 2px 20px #222049;
+    color:white
+
+}
+.card2:hover {
+    background-color: #f75932;
+    box-shadow: 2px 2px 20px #222049;
+    color:white
+
+
+}.card3:hover {
+    background-color: #4b33ff;
+    box-shadow: 2px 2px 20px #222049;
+    color:white
+
+
+}.card4:hover {
+    background-color: #33aaff;
+    box-shadow: 2px 2px 20px #222049;
+    color:white
+
+
+}.card5:hover {
+    background-color: #ff3333;
+    box-shadow: 2px 2px 20px #222049;
+    color:white
+
+}
+
+@media (max-width: 800px) {
+    .section1B {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #image {
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.tribute-link{
+    text-align: center;
+    color: white;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 4.1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+    font-family: poppins;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom1 {
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-top: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom1 p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: auto;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
