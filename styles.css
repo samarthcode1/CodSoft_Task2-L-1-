@@ -6,6 +6,7 @@
     border: 5px solid black;
     padding: 20px;
     font-family: Poppins;
+    border-radius: 30px;
     font-weight: 90;
     box-shadow: 5px 5px 10px #000003;
 }
@@ -37,6 +38,8 @@
     border: 5px solid black;
     position: relative;
     bottom: 40px;
+    border-radius: 30px;
+
     font-family: Poppins;
 }
 #tite:hover {
